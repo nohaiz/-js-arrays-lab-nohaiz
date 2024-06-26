@@ -183,7 +183,7 @@ nums.forEach( (num) => {
         fizz.push(num);
         fizzbuzz.push(num);
     }
-    else if (num % 5 === 0) {
+    if (num % 5 === 0) {
         buzz.push(num);
         fizzbuzz.push(num);
     }
